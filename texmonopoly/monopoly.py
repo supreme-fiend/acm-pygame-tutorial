@@ -38,7 +38,7 @@ class Player:
 
     def turn(self):
         print("Turn of " + self.name)
-        print("You have " + self.money)
+        print("You have " + str(self.money))
         print("1) View Places Owned")
         print("2) Roll Dice")
 
